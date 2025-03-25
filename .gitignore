@@ -1,0 +1,38 @@
+# Dependências do Node.js
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Diretórios de build
+dist/
+out/
+build/
+.electron/
+
+# Arquivos do editor/IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache e logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+coverage/
+
+# Configuração do ambiente
+.env
+.env.local
+.env.development
+.env.production
+
+# Arquivos de teste
+jest-cache/
+jest-output/
+cypress/videos/
+cypress/screenshots/
